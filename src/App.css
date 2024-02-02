@@ -1,0 +1,287 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #fafbfc !important;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p{
+  margin: 0 !important;
+}
+
+.bg-white-800 {
+  background-color: #fff;
+}
+
+.heroWrapper {
+  padding: 4rem 0 6rem;
+  background-color: #fff;
+}
+
+.container {
+  padding: 0 2rem !important;
+}
+
+.main-wrapper {
+  border-radius: 20px;
+  box-shadow: 0px 0 20px -8px rgba(0, 0, 0, 0.38);
+  height: auto !important;
+}
+
+.tabHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 3rem 0;
+}
+
+.nav-link.active{
+  background-color: slategray !important;
+  color: white !important;
+  border-radius: 10px 10px 0 0 !important;
+}
+
+.nav-link{
+  color: gray !important;
+}
+
+.tabContent{
+  padding: 0 3rem 2rem;
+}
+
+
+.divider {
+  background-color: #b0b7c3;
+  opacity: 20%;
+  width: 100%;
+  height: 3px;
+}
+
+.roundedCorner {
+  border-radius: 20px;
+}
+
+.cardOverview {
+  box-shadow: none !important;
+  border-radius: 20px !important;
+}
+
+.logoWrapper {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 100px;
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #4e5d78;
+}
+
+.cardSubtitle {
+  color: #8a94a6;
+}
+
+.firstCard{
+  width: 65%;
+  padding-right: 1rem;
+}
+
+.secondCard{
+  width: 35%;
+  padding-left: 1rem;
+}
+
+.stackedBarWrapper{
+  background-color: #fff !important;
+  width: 100% !important;
+  height: fit-content;
+  border-radius: 20px;
+  box-shadow: 0px 0 20px -8px rgba(0, 0, 0, 0.38);
+  margin-bottom: 4rem;
+}
+
+.stackedBarTitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem 2rem;
+}
+
+.stackedBarContent{
+  padding: 1rem 3rem;
+}
+
+.stackedBarLegends{
+  padding: 2rem 3rem;
+}
+
+.filter{
+  width: 6rem;
+  background-color: #f5f6f7;
+}
+
+.filterWrapper{
+  border-radius: 10px;
+  background-color: #f5f6f7;
+  padding: .75rem .75rem;
+  display: flex;
+}
+
+.legends{
+  width: fit-content;
+  padding: 1rem 1rem;
+  background-color: #f5f6f7;
+  border-radius: 10px;
+  gap: .75rem;
+}
+
+.legendsColor.color1{
+  background-color: #5b7fff;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100px;
+}
+
+.legendsColor.color2{
+  background-color: #38cb89;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100px;
+}
+
+.legendsColor.color3{
+  background-color: #ffab00;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100px;
+}
+
+.legendsColor.color4{
+  background-color: #e3aa36;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100px;
+}
+
+.verticalChartLegends{
+  width: 20rem;
+  justify-content: center;
+}
+
+.statsButton{
+  padding: .5rem;
+  background-color: #f5f6f7;
+  border-radius: 10px;
+}
+
+.doughnutTitleWrapper{
+  padding: 2rem 3rem 1rem;
+}
+
+.doughnutTitle{
+  display: flex;
+  justify-content: space-between !important;
+  width: 100%;
+}
+
+.doughnutLegendsWrapper{
+  padding: 0rem 3rem 2rem;
+  gap: .5rem;
+}
+
+.doughnutLegends{
+  padding: .5rem;
+  background-color: #f5f6f7;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.halfDoughnut{
+  width: 75% !important;
+  height: 75% !important;
+}
+
+.halfDoughnutWrapper{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2.5rem;
+}
+
+.buttonGrey{
+  margin-top: 2rem;
+  letter-spacing: 3px;
+  width: 13rem;
+  background-color: #bababa !important;
+  border: none !important;
+}
+
+.alignCenter{
+  text-align: center;
+}
+
+.jobadsMainWrapper{
+  height: 41rem;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.jobadsHeaderWrapper{
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+}
+
+.jobadsWrapper{
+  display: flex;
+  margin: 2rem 0;
+  align-items: center;
+  border-color: #b0b7c363;
+  border-width: 1px;
+  height: 8rem;
+  padding: 1rem;
+  border-radius: 10px;
+  gap: 1rem;
+}
+
+.jobadslogo{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 10px !important; 
+}
+
+.jobadstitle{
+  color: #505f7a;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.jobadssubtitle{
+  color: #8c8c8c;
+  font-size: .85rem;
+}
+.jobadsstatus{
+  color: #8c8c8c;
+  font-size: .85rem;
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+}
+
+.onlineIndicator{
+  color: #38cb89;
+  font-size: 1.25rem;
+}
+
